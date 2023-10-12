@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     #custom apps
     'users',
+    'posts',
 ]
 
 MIDDLEWARE = [
@@ -86,3 +87,12 @@ USE_TZ = True
 STATIC_URL = "static/"
 #endregion
 
+LOGOUT_REDIRECT_URL = 'login'
+LOGIN_REDIRECT_URL = 'index'
+LOGIN_URL='login'
+LOGOUT_URL='login'
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
