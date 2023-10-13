@@ -1,0 +1,24 @@
+{
+  "name": "w1.3_social_course_django",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tailwind build users/static/users/tw.css -o users/static/users/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichalDzielinski/socapp_course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichalDzielinski/socapp_course/issues"
+  },
+  "homepage": "https://github.com/MichalDzielinski/socapp_course#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.16"
+  }
+}
