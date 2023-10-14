@@ -16,7 +16,7 @@ ALLOWED_HOSTS = []
 #endregion
 
 INSTALLED_APPS = [
-    'jazzmin',
+    # 'jazzmin',
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -26,6 +26,7 @@ INSTALLED_APPS = [
     #custom apps
     'users',
     'posts',
+    'mathfilters',
 ]
 
 MIDDLEWARE = [
